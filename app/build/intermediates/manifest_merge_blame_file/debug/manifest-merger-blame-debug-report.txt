@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Vin.WOW"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission
+13-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:7:5-81
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:7:22-78
+15        android:maxSdkVersion="28" />
+15-->[:ds-photo-editor-sdk-v10:] C:\Users\vinme\.gradle\caches\transforms-3\4a430c5b516392f33aca5880b89f75cf\transformed\jetified-ds-photo-editor-sdk-v10\AndroidManifest.xml:14:9-35
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:8:5-80
+16-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:8:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:9:5-79
+17-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:9:22-76
+18
+19    <application
+19-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:11:5-73:19
+20        android:allowBackup="true"
+20-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:12:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.5.0] C:\Users\vinme\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:13:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:14:9-41
+25        android:largeHeap="true"
+25-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:15:9-33
+26        android:requestLegacyExternalStorage="true"
+26-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:16:9-52
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:17:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:18:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.WOW" >
+30-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:19:9-41
+31        <activity
+31-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:20:9-26:20
+32            android:name="com.Vin.WOW.GalleryActivity"
+32-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:21:13-44
+33            android:exported="false" >
+33-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:22:13-37
+34            <meta-data
+34-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:23:13-25:36
+35                android:name="android.app.lib_name"
+35-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:24:17-52
+36                android:value="" />
+36-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:25:17-33
+37        </activity>
+38        <activity
+38-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:27:9-33:20
+39            android:name="com.Vin.WOW.MainActivity2"
+39-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:28:13-42
+40            android:exported="false" >
+40-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:23:13-25:36
+42                android:name="android.app.lib_name"
+42-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:24:17-52
+43                android:value="" />
+43-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:25:17-33
+44        </activity>
+45        <activity
+45-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:34:9-36:39
+46            android:name="com.Vin.WOW.EditPhotoActivity"
+46-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:35:13-46
+47            android:exported="true" />
+47-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:36:13-36
+48        <activity
+48-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:37:9-39:39
+49            android:name="com.Vin.WOW.ShowPhotoActivity"
+49-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:38:13-46
+50            android:exported="true" />
+50-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:39:13-36
+51        <activity
+51-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:40:9-42:39
+52            android:name="com.Vin.WOW.CameraActivity"
+52-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:41:13-43
+53            android:exported="true" />
+53-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:42:13-36
+54        <activity
+54-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:43:9-51:20
+55            android:name="com.Vin.WOW.MainActivity"
+55-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:44:13-41
+56            android:exported="true" >
+56-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:45:13-36
+57            <intent-filter>
+57-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:46:13-50:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:47:17-69
+58-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:47:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:49:17-77
+60-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:49:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:52:9-55:69
+64            android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorActivity"
+64-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:53:13-80
+65            android:screenOrientation="portrait"
+65-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:54:13-49
+66            android:theme="@android:style/Theme.Holo.NoActionBar" />
+66-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:55:13-66
+67        <activity
+67-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:56:9-59:69
+68            android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorStickerActivity"
+68-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:57:13-87
+69            android:screenOrientation="portrait"
+69-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:58:13-49
+70            android:theme="@android:style/Theme.Holo.NoActionBar" />
+70-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:59:13-66
+71        <activity
+71-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:60:9-64:55
+72            android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorTextActivity"
+72-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:61:13-84
+73            android:screenOrientation="portrait"
+73-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:62:13-49
+74            android:theme="@android:style/Theme.Holo.NoActionBar"
+74-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:63:13-66
+75            android:windowSoftInputMode="adjustPan" />
+75-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:64:13-52
+76        <activity
+76-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:65:9-68:69
+77            android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorCropActivity"
+77-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:66:13-84
+78            android:screenOrientation="portrait"
+78-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:67:13-49
+79            android:theme="@android:style/Theme.Holo.NoActionBar" />
+79-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:68:13-66
+80        <activity
+80-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:69:9-72:69
+81            android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorDrawActivity"
+81-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:70:13-84
+82            android:screenOrientation="portrait"
+82-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:71:13-49
+83            android:theme="@android:style/Theme.Holo.NoActionBar" />
+83-->C:\Users\vinme\Desktop\WOW\app\src\main\AndroidManifest.xml:72:13-66
+84
+85        <provider
+85-->[androidx.camera:camera-camera2:1.0.0-alpha02] C:\Users\vinme\.gradle\caches\transforms-3\ce011c22d910e8b0112c099fc9454232\transformed\jetified-camera-camera2-1.0.0-alpha02\AndroidManifest.xml:25:9-30:43
+86            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+86-->[androidx.camera:camera-camera2:1.0.0-alpha02] C:\Users\vinme\.gradle\caches\transforms-3\ce011c22d910e8b0112c099fc9454232\transformed\jetified-camera-camera2-1.0.0-alpha02\AndroidManifest.xml:26:13-75
+87            android:authorities="com.Vin.WOW.camerax-init"
+87-->[androidx.camera:camera-camera2:1.0.0-alpha02] C:\Users\vinme\.gradle\caches\transforms-3\ce011c22d910e8b0112c099fc9454232\transformed\jetified-camera-camera2-1.0.0-alpha02\AndroidManifest.xml:27:13-64
+88            android:exported="false"
+88-->[androidx.camera:camera-camera2:1.0.0-alpha02] C:\Users\vinme\.gradle\caches\transforms-3\ce011c22d910e8b0112c099fc9454232\transformed\jetified-camera-camera2-1.0.0-alpha02\AndroidManifest.xml:28:13-37
+89            android:initOrder="100"
+89-->[androidx.camera:camera-camera2:1.0.0-alpha02] C:\Users\vinme\.gradle\caches\transforms-3\ce011c22d910e8b0112c099fc9454232\transformed\jetified-camera-camera2-1.0.0-alpha02\AndroidManifest.xml:29:13-36
+90            android:multiprocess="true" />
+90-->[androidx.camera:camera-camera2:1.0.0-alpha02] C:\Users\vinme\.gradle\caches\transforms-3\ce011c22d910e8b0112c099fc9454232\transformed\jetified-camera-camera2-1.0.0-alpha02\AndroidManifest.xml:30:13-40
+91    </application>
+92
+93</manifest>

@@ -1,0 +1,22 @@
+com/Vin/WOW/MainActivity.java
+ com.Vin.WOW.MainActivity
+ com.Vin.WOW.MainActivity$1
+com/Vin/WOW/ShowPhotoActivity.java
+ com.Vin.WOW.ShowPhotoActivity
+ com.Vin.WOW.ShowPhotoActivity$1
+com/Vin/WOW/BuildConfig.java
+ com.Vin.WOW.BuildConfig
+com/Vin/WOW/EditPhotoActivity.java
+ com.Vin.WOW.EditPhotoActivity
+ com.Vin.WOW.EditPhotoActivity$1
+com/Vin/WOW/CameraActivity.java
+ com.Vin.WOW.CameraActivity
+ com.Vin.WOW.CameraActivity$1
+ com.Vin.WOW.CameraActivity$2
+ com.Vin.WOW.CameraActivity$2$1
+com/Vin/WOW/MainActivity2.java
+ com.Vin.WOW.MainActivity2
+ com.Vin.WOW.MainActivity2$1
+ com.Vin.WOW.MainActivity2$2
+com/Vin/WOW/GalleryActivity.java
+ com.Vin.WOW.GalleryActivity
